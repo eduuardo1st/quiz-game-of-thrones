@@ -58,34 +58,52 @@ class SistemaQuiz {
                 { texto: "Uso palavras, subornos ou manipulação mental para sair vivo.", pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 2, tyrion: 3, sansa: 3 } }
             ]),
             new Pergunta("Qual o papel de um conselheiro ao seu lado?", [
-                { texto: "Alguém que me diga a verdade, mesmo quando dói.", pontos: { jon: 3, arya: 0, daenerys: 1, cersei: 0, tyrion: 3, sansa: 1 } },
-                { texto: "Um fantoche que executa minhas ordens sem questionar.", pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 3, tyrion: 0, sansa: 0 } },
-                { texto: "Alguém em quem eu possa confiar, mas cujas lições eu adapto.", pontos: { jon: 0, arya: 1, daenerys: 2, cersei: 0, tyrion: 0, sansa: 3 } }
+                { texto: "Alguém que me diga a verdade, mesmo quando dói.", 
+                    pontos: { jon: 3, arya: 0, daenerys: 1, cersei: 0, tyrion: 3, sansa: 1 } },
+                { texto: "Um fantoche que executa minhas ordens sem questionar.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 3, tyrion: 0, sansa: 0 } },
+                { texto: "Alguém em quem eu possa confiar, mas cujas lições eu adapto.", 
+                    pontos: { jon: 0, arya: 1, daenerys: 2, cersei: 0, tyrion: 0, sansa: 3 } }
             ]),
             new Pergunta("O que você prioriza em tempos de guerra?", [
-                { texto: "A segurança do meu povo e a união contra o mal maior.", pontos: { jon: 3, arya: 0, daenerys: 1, cersei: 0, tyrion: 1, sansa: 2 } },
-                { texto: "A eliminação silenciosa dos generais inimigos.", pontos: { jon: 0, arya: 3, daenerys: 0, cersei: 0, tyrion: 0, sansa: 0 } },
-                { texto: "Manter minha posição de liderança a qualquer custo.", pontos: { jon: 0, arya: 0, daenerys: 2, cersei: 3, tyrion: 0, sansa: 0 } }
+                { texto: "A segurança do meu povo e a união contra o mal maior.", 
+                    pontos: { jon: 3, arya: 0, daenerys: 1, cersei: 0, tyrion: 1, sansa: 2 } },
+                { texto: "A eliminação silenciosa dos generais inimigos.", 
+                    pontos: { jon: 0, arya: 3, daenerys: 0, cersei: 0, tyrion: 0, sansa: 0 } },
+                { texto: "Manter minha posição de liderança a qualquer custo.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 2, cersei: 3, tyrion: 0, sansa: 0 } }
             ]),
             new Pergunta("Onde você se sente mais em casa?", [
-                { texto: "No frio do Norte, junto às tradições da minha família.", pontos: { jon: 3, arya: 1, daenerys: 0, cersei: 0, tyrion: 0, sansa: 3 } },
-                { texto: "Em movimento, explorando o mundo e fazendo meu próprio caminho.", pontos: { jon: 0, arya: 3, daenerys: 2, cersei: 0, tyrion: 1, sansa: 0 } },
-                { texto: "Na capital, cercado de luxo, vinho e intrigas.", pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 3, tyrion: 3, sansa: 0 } }
+                { texto: "No frio do Norte, junto às tradições da minha família.", 
+                    pontos: { jon: 3, arya: 1, daenerys: 0, cersei: 0, tyrion: 0, sansa: 3 } },
+                { texto: "Em movimento, explorando o mundo e fazendo meu próprio caminho.", 
+                    pontos: { jon: 0, arya: 3, daenerys: 2, cersei: 0, tyrion: 1, sansa: 0 } },
+                { texto: "Na capital, cercado de luxo, vinho e intrigas.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 3, tyrion: 3, sansa: 0 } }
             ]),
             new Pergunta("Como você enxerga a lealdade?", [
-                { texto: "Deve ser recíproca e baseada em princípios e respeito.", pontos: { jon: 3, arya: 2, daenerys: 1, cersei: 0, tyrion: 1, sansa: 1 } },
-                { texto: "É frágil; prefiro confiar apenas em mim mesmo.", pontos: { jon: 0, arya: 3, daenerys: 0, cersei: 1, tyrion: 2, sansa: 3 } },
-                { texto: "Exijo devoção absoluta, ou considero traição.", pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 3, tyrion: 0, sansa: 0 } }
+                { texto: "Deve ser recíproca e baseada em princípios e respeito.", 
+                    pontos: { jon: 3, arya: 2, daenerys: 1, cersei: 0, tyrion: 1, sansa: 1 } },
+                { texto: "É frágil; prefiro confiar apenas em mim mesmo.", 
+                    pontos: { jon: 0, arya: 3, daenerys: 0, cersei: 1, tyrion: 2, sansa: 3 } },
+                { texto: "Exijo devoção absoluta, ou considero traição.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 3, tyrion: 0, sansa: 0 } }
             ]),
             new Pergunta("Como reagir a uma traição familiar?", [
-                { texto: "Com profunda tristeza, mas a justiça deve ser feita.", pontos: { jon: 3, arya: 0, daenerys: 0, cersei: 0, tyrion: 1, sansa: 1 } },
-                { texto: "Planejo uma vingança meticulosa que eles nunca esquecerão.", pontos: { jon: 0, arya: 3, daenerys: 1, cersei: 2, tyrion: 0, sansa: 3 } },
-                { texto: "Ignoro os laços de sangue e elimino a ameaça.", pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 3, tyrion: 2, sansa: 0 } }
+                { texto: "Com profunda tristeza, mas a justiça deve ser feita.", 
+                    pontos: { jon: 3, arya: 0, daenerys: 0, cersei: 0, tyrion: 1, sansa: 1 } },
+                { texto: "Planejo uma vingança meticulosa que eles nunca esquecerão.", 
+                    pontos: { jon: 0, arya: 3, daenerys: 1, cersei: 2, tyrion: 0, sansa: 3 } },
+                { texto: "Ignoro os laços de sangue e elimino a ameaça.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 3, tyrion: 2, sansa: 0 } }
             ]),
             new Pergunta("Qual o seu objetivo final?", [
-                { texto: "Apenas sobreviver ao inverno e proteger os vivos.", pontos: { jon: 3, arya: 0, daenerys: 0, cersei: 0, tyrion: 1, sansa: 0 } },
-                { texto: "Retomar o Trono de Ferro e governar os Sete Reinos.", pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 3, tyrion: 0, sansa: 0 } },
-                { texto: "Garantir a independência e o futuro da minha família.", pontos: { jon: 0, arya: 3, daenerys: 0, cersei: 0, tyrion: 0, sansa: 3 } }
+                { texto: "Apenas sobreviver ao inverno e proteger os vivos.", 
+                    pontos: { jon: 3, arya: 0, daenerys: 0, cersei: 0, tyrion: 1, sansa: 0 } },
+                { texto: "Retomar o Trono de Ferro e governar os Sete Reinos.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 3, tyrion: 0, sansa: 0 } },
+                { texto: "Garantir a independência e o futuro da minha família.", 
+                    pontos: { jon: 0, arya: 3, daenerys: 0, cersei: 0, tyrion: 0, sansa: 3 } }
             ])
         ];
     }
