@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual personagem de Game of Thrones você é?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome-screen" class="screen active">
+        <img src="Assets/Game Of Thrones.jpg" alt="Game of Thrones Logo" class="logo">
+        <h1>Quem você seria em Game Of Thrones?</h1>
+        <p>Quando você joga o jogo dos tronos, você vence ou você morre. Responda a este questionário para descobrir quem você seria na disputa pelo Trono de Ferro.</p>
+        <button id="btn-start">Iniciar Questionário</button>
+    </div>
+
+    <div id="quiz-screen" class="screen">
+        <h2 id="question-text"></h2>
+        <div id="options-container"></div>
+    </div>
+
+    <div id="result-screen" class="screen">
+        <h2>Seu resultado:</h2>
+        <h3 id="result-name"></h3>
+        <img id="result-image" src="" alt="Personagem">
+        <p id="result-desc"></p>
+        <p id="result-score"></p>
+        <button id="btn-restart">Dobrar o Joelho e Tentar Novamente</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
