@@ -38,24 +38,36 @@ class SistemaQuiz {
 
         this.perguntas = [
             new Pergunta("Como você lida com seus inimigos?", [
-                { texto: "Enfrento-os de frente, com honra ou com a minha espada.", pontos: { jon: 3, arya: 3, daenerys: 1, cersei: 0, tyrion: 0, sansa: 0 } },
-                { texto: "Crio intrigas e alianças para que se destruam sozinhos.", pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 3, tyrion: 2, sansa: 3 } },
-                { texto: "Destruo-os completamente, sem piedade.", pontos: { jon: 0, arya: 1, daenerys: 3, cersei: 2, tyrion: 0, sansa: 0 } }
+                { texto: "Enfrento-os de frente, com honra ou com a minha espada.", 
+                    pontos: { jon: 3, arya: 3, daenerys: 1, cersei: 0, tyrion: 0, sansa: 0 } },
+                { texto: "Crio intrigas e alianças para que se destruam sozinhos.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 3, tyrion: 2, sansa: 3 } },
+                { texto: "Destruo-os completamente, sem piedade.", 
+                    pontos: { jon: 0, arya: 1, daenerys: 3, cersei: 2, tyrion: 0, sansa: 0 } }
             ]),
             new Pergunta("O que significa o poder para você?", [
-                { texto: "Um fardo necessário para proteger quem não pode se defender.", pontos: { jon: 3, arya: 1, daenerys: 1, cersei: 0, tyrion: 2, sansa: 1 } },
-                { texto: "O controle absoluto para garantir a sobrevivência da minha casa.", pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 3, tyrion: 0, sansa: 3 } },
-                { texto: "Meu direito de nascença e a ferramenta para mudar o mundo.", pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 1, tyrion: 0, sansa: 0 } }
+                { texto: "Um fardo necessário para proteger quem não pode se defender.", 
+                    pontos: { jon: 3, arya: 1, daenerys: 1, cersei: 0, tyrion: 2, sansa: 1 } },
+                { texto: "O controle absoluto para garantir a sobrevivência da minha casa.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 3, tyrion: 0, sansa: 3 } },
+                { texto: "Meu direito de nascença e a ferramenta para mudar o mundo.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 1, tyrion: 0, sansa: 0 } }
             ]),
             new Pergunta("Qual é a sua maior arma?", [
-                { texto: "Minha honra e habilidade em combate.", pontos: { jon: 3, arya: 2, daenerys: 0, cersei: 0, tyrion: 0, sansa: 0 } },
-                { texto: "Meu intelecto e minha capacidade de negociação.", pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 1, tyrion: 3, sansa: 2 } },
-                { texto: "Recursos infinitos, medo ou fogo.", pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 3, tyrion: 0, sansa: 0 } }
+                { texto: "Minha honra e habilidade em combate.", 
+                    pontos: { jon: 3, arya: 2, daenerys: 0, cersei: 0, tyrion: 0, sansa: 0 } },
+                { texto: "Meu intelecto e minha capacidade de negociação.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 1, tyrion: 3, sansa: 2 } },
+                { texto: "Recursos infinitos, medo ou fogo.", 
+                    pontos: { jon: 0, arya: 0, daenerys: 3, cersei: 3, tyrion: 0, sansa: 0 } }
             ]),
             new Pergunta("Como você sobrevive a uma situação de extrema desvantagem?", [
-                { texto: "Luto até o fim, inspirando os outros a fazerem o mesmo.", pontos: { jon: 3, arya: 1, daenerys: 2, cersei: 0, tyrion: 0, sansa: 0 } },
-                { texto: "Fujo, me escondo nas sombras e ataco no momento certo.", pontos: { jon: 0, arya: 3, daenerys: 0, cersei: 0, tyrion: 1, sansa: 1 } },
-                { texto: "Uso palavras, subornos ou manipulação mental para sair vivo.", pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 2, tyrion: 3, sansa: 3 } }
+                { texto: "Luto até o fim, inspirando os outros a fazerem o mesmo.", 
+                    pontos: { jon: 3, arya: 1, daenerys: 2, cersei: 0, tyrion: 0, sansa: 0 } },
+                { texto: "Fujo, me escondo nas sombras e ataco no momento certo.",
+                    pontos: { jon: 0, arya: 3, daenerys: 0, cersei: 0, tyrion: 1, sansa: 1 } },
+                { texto: "Uso palavras, subornos ou manipulação mental para sair vivo.",
+                    pontos: { jon: 0, arya: 0, daenerys: 0, cersei: 2, tyrion: 3, sansa: 3 } }
             ]),
             new Pergunta("Qual o papel de um conselheiro ao seu lado?", [
                 { texto: "Alguém que me diga a verdade, mesmo quando dói.", 
